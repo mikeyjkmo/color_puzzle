@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "color-puzzle"
+version = "0.1.0"
+description = ""
+authors = ["Mikey Mo <mikeyjkmo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+pytest-icdiff = "^0.9"
+black = "^24.2.0"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
