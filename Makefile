@@ -1,6 +1,9 @@
 test:
 	pytest -vvs
 
+venv:
+	python -m venv venv
+
 run:
 	python color_puzzle/main.py
 

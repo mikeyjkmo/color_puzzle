@@ -72,12 +72,12 @@ The output for the example would be:
 
 Create a virtual env
 ```bash
-$ python -m venv venv
+$ make venv
 ```
 
 Activate the virtual env
 ```bash
-$ source venv/bin/activate
+$ source ./venv/bin/activate
 ```
 
 Install the dependencies
@@ -95,6 +95,12 @@ $ make test
 
 ```bash
 $ make run < test_input.txt
+```
+
+### Deactivate the env
+
+```bash
+$ deactivate
 ```
 
 ## Running with Poetry
