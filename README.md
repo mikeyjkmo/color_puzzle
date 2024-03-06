@@ -61,7 +61,7 @@ The output for the example would be:
 
 # Solution
 
-## Requirments
+## Requirements
 
 - Python 3.8+
 - `python-poetry`1.7+ (optional)
