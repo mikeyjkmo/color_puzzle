@@ -115,5 +115,5 @@ $ poetry run pytest
 ### Run main
 
 ```bash
-$ poetry run color_puzzle/main.py < input.txt
+$ poetry run python color_puzzle/main.py < input.txt
 ```
