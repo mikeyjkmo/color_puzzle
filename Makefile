@@ -4,4 +4,7 @@ test:
 run:
 	python color_puzzle/main.py
 
-.PHONY: test run
+install:
+	pip install . && pip install -r requirements.txt
+
+.PHONY: test run install

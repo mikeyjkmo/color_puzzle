@@ -72,29 +72,29 @@ The output for the example would be:
 
 Create a virtual env
 ```bash
-$ python -m venv .venv
+$ python -m venv venv
 ```
 
 Activate the virtual env
 ```bash
-$ source .venv/bin/activate
+$ source venv/bin/activate
 ```
 
 Install the dependencies
 ```bash
-$ pip install -r requirements.txt
+$ make install
 ```
 
 ### Run tests
 
 ```bash
-$ make tests
+$ make test
 ```
 
 ### Run main
 
 ```bash
-$ make run < input.txt
+$ make run < test_input.txt
 ```
 
 ## Running with Poetry
@@ -115,5 +115,5 @@ $ poetry run pytest
 ### Run main
 
 ```bash
-$ poetry run python color_puzzle/main.py < input.txt
+$ poetry run python color_puzzle/main.py < test_input.txt
 ```
