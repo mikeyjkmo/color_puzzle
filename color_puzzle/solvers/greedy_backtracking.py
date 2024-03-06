@@ -27,6 +27,8 @@ class GreedyBacktrackingSolver:
     ):
         """
         Backtrack to find the best local solution at each column
+
+        Returns the maximum score found and the bit mask of used bricks
         """
         max_score = 0
         max_score_used_bricks = used_bricks_bit_mask
